@@ -1,0 +1,31 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Sora:wght@300&family=Zen+Tokyo+Zoo&display=swap');
+
+body {
+  background-color: rgb(54, 54, 54);
+}
+
+/* Logo */
+.logo{
+  color: white;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  padding-top: 30vh;
+}
+
+/* Search Bar */
+input {
+  width: 100%;
+  padding: 10px 35px 10px 40px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+  background-repeat: no-repeat;
+}
+
+/* Button */
+.btn {
+  border-radius: 50px;
+}
